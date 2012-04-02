@@ -1,0 +1,63 @@
+/**
+ * Misc CSS 0.1
+ *
+ * @author		JREAM
+ * @link		http://jream.com
+ * @copyright	2010 Jesse Boyer (contact@jream.com)
+ * @license		GNU General Public License 3 (http://www.gnu.org/licenses/)
+ */
+
+/**
+ * @desc Text Manipulate
+ */
+.txtL {text-align: left;}
+.txtR {text-align: right;}
+.txtC {text-align: center;}
+
+.txtUC {text-transform: uppercase;}
+.txtCAP {text-transform: capitalize;}
+
+/**
+ * @desc Misc
+ */
+.block {display: block;}
+.top {vertical-align: top;}
+.pointer {cursor: pointer;}
+
+/**
+ * @desc Float
+ */
+.flright {float: right;}
+.flleft {float: left;}
+.clear {clear: both;}
+
+/**
+ * @desc Format
+ */
+.s, strong, b, tr.s td {font-weight: bolder;}
+.i, em {font-style: italic;}
+
+.note {font-size: 9px;}
+.disable {color: gray;}
+.h {color: #0e69b3; font-weight: bolder;}
+
+.shade {background: #dfdfdf;}
+.shade2 {}
+.shade3 {}
+
+/**
+ * @desc Padding/Margin
+ */
+.p, table.p tr td {padding: 10px;}
+.pmin, table.pmin tr td  {padding: 3px;}
+.pt, table.pt tr td {padding-top: 10px;}
+.pl, table.pl tr td {padding-left: 10px;}
+.pr, table.pr tr td {padding-right: 10px;}
+.pb, table.pb tr td {padding-bottom: 10px;}
+
+.m, table.m tr td {margin: 10px;}
+.mmin, table.mmin tr td  {margin: 3px;}
+.mt, table.mt tr td {margin-top: 10px;}
+.ml, table.ml tr td {margin-left: 10px;}
+.mr, table.mr tr td {margin-right: 10px;}
+.mb, table.mb tr td {margin-bottom: 10px;}
