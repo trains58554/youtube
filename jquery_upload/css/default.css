@@ -1,0 +1,118 @@
+/**
+ *	@url			http://jream.com/lab
+ *	@license		Public Domain
+ */
+ 
+@import 'reset.css';
+@import 'misc.css';
+
+body {
+	background: #F1F1F1;
+	font: 16px Helvetica Neue, Arial, Helvetica, sans-serif;
+	line-height: 140%;
+}
+
+/** Structure **/
+#wrap {
+	width: 980px;
+	margin: 20px auto;
+}
+
+header {
+	padding: 20px;
+	background: #245fb6;
+	color: #fff;
+	font-size: 25px;
+	border-radius: 12px;
+}
+
+footer {
+	padding: 20px;
+	background: #245fb6;
+	color: #fff;
+	border-radius: 12px;
+}
+
+
+#content {
+	background: #fff;
+	padding: 10px;
+	min-height: 200px;
+	border-radius: 12px;
+	margin: 12px 0;
+}
+
+
+/** Links **/
+a {
+	padding: 2px 5px;
+	color: #8C003D;
+}
+
+a:hover {
+	background: #D8005F;
+	color: #fff;
+}
+
+
+/** Text **/
+b, strong {
+	font-weight: bolder;
+}
+
+p {
+	margin: 0 0 20px 0;
+}
+
+h1, h2, h3, h4 {
+	margin: 10px 0 5px 0;
+}
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+h3 {
+	font-size: 21px;
+}
+
+h4 {
+	font-size: 19px;
+}
+
+/** Tables **/
+table tr td {
+	padding: 4px 10px;
+}
+
+/** Forms **/
+form {}
+form br {clear: left;}
+
+form label { 
+	display: block;
+	float: left; 
+	width: 100px; 
+	margin: 9px 0 0;
+	text-align: right; 
+}
+
+form input, form select {
+	margin: 5px 0 0 10px;
+	border: 2px solid #E5E5E5;
+	padding: 4px 6px;
+}
+
+textarea {
+	resize: none;
+	overflow: auto;
+	height: 80px;
+	margin: 5px 0 0 10px;
+	width: 320px;
+	border: 2px solid #E5E5E5;
+	padding: 4px;
+	font: normal 12px Arial, sans-serif;
+}
